@@ -173,6 +173,7 @@ main{
     border-radius: 10px;
     cursor: pointer;
     margin-top: 15px;
+    transition: all 0.1s linear 0s;
 }
 .thirdleftbar button:hover{
     background-color: rgb(20, 69, 86);
