@@ -18,6 +18,7 @@ function cross() {
 function submissionConfirmation() {
   if (queryBox.value == "") {
     window.alert("Kindly enter some query");
+    return;
   } else {
     container3.style.display = "flex";
     container2.style.opacity = "0.15";
